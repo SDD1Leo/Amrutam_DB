@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-size: 100%;
+}
+
+@media(max-width:413px){
+    #nav{
+        flex-direction: column;
+    }
+}
